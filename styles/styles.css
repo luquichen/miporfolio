@@ -1,0 +1,172 @@
+:root {
+  --primary-color: #2c3e50; 
+  --secondary-color: #C71585; 
+  --highlight-color: #FF69B4; 
+  --background-color: #f9f9f9; 
+  --text-color: #333; 
+  --font-family-primary: 'Montserrat', sans-serif; 
+  --font-family-secondary: 'Roboto', sans-serif;
+}
+
+body {
+  font-family: var(--font-family-primary);
+  background-color: var(--background-color);
+}
+
+/* Estilo para imágenes */
+img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 50%;
+}
+
+/* Footer */
+footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: #f8f9fa;
+  padding: 10px 0;
+}
+
+/* Estilo para la clase 'principal' */
+.principal {
+  margin-top: 5rem;
+}
+
+/* Navbar */
+.navbar .nav-link {
+  color: var(--primary-color);
+}
+
+.navbar .nav-link:hover {
+  color: var(--secondary-color);
+}
+
+/* Estilo para el texto resaltado */
+.highlight {
+  color: var(--highlight-color);
+}
+
+/* Estilo para el título principal */
+.name-title {
+  font-size: 3.5rem;
+  font-weight: bold;
+  color: var(--primary-color);
+  margin-bottom: 40px;
+}
+
+/* Estilo para el subtítulo */
+.subtitle {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+/* Estilo para los párrafos */
+p {
+  font-size: 1.5rem;
+}
+
+/* Tarjetas */
+.tarjetas {
+  margin-top: 2rem;
+  background-color: var(--background-color);
+  padding: 1.5rem;
+  border-radius: 8px;
+}
+
+/* Sección 'Sobre mí' */
+.sobremi {
+  font-family: var(--font-family-secondary);
+  color: var(--text-color);
+  padding: 60px 20px;
+  background-color: var(--background-color);
+}
+
+/* Título H2 */
+.h2 {
+  font-size: 2.5rem;
+  color: var(--primary-color);
+  margin-bottom: 40px;
+}
+
+.sobremi p {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+/* Barra de progreso */
+.progress-bar {
+  transition: width 2s;
+  background-color: var(--secondary-color);
+}
+
+/* Sección de habilidades */
+.skils {
+  text-align: center;
+}
+
+.progreso {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.progreso div {
+  width: 100%;
+}
+
+/* Tarjetas */
+.card {
+  background-color: var(--background-color);
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-bottom: 2rem;
+  padding: 1.5rem;
+}
+
+.card-header {
+  background-color: transparent;
+  border-bottom: none;
+  padding-bottom: 0.5rem;
+}
+
+.card-title {
+  font-size: 1.8rem;
+  color: var(--primary-color);
+  font-weight: bold;
+}
+
+.card-subtitle {
+  font-size: 1.2rem;
+  color: var(--secondary-color);
+  font-weight: 600;
+}
+
+.card-text {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  color: var(--text-color);
+}
+
+.card:hover {
+  background-color: var(--highlight-color);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+.small {
+  color: var(--highlight-color);
+}
+
+.separador .card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.separador h5 {
+  margin-bottom: 0;
+}
